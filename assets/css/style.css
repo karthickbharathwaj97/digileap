@@ -8,6 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -434,6 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  font-size: 24px;
   margin-top: 10px;
 }
 
@@ -668,6 +676,28 @@ section {
   text-decoration: none;
 }
 
+#building .content .btn-learn-more {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #f40414;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #f40414;
+}
+
+#building .content .btn-learn-more:hover {
+  background: #f40414;
+  color: #fff;
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -987,6 +1017,7 @@ section {
   font-size: 24px;
 }
 
+
 .services .icon-box h4 a {
   color: #0b2341;
 }
@@ -1017,6 +1048,16 @@ section {
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
   color: #fff;
 }
+.services .icon-box h6 a {
+  color: red;
+}
+
+.services .icon-box:hover h6 a{
+  color: #fff;
+ 
+}
+
+ 
 
 /*--------------------------------------------------------------
 # Testimonials
